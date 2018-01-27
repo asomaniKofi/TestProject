@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Homepage</title>
+  <meta name="description" content="Homepage">
+  <meta http-equiv="Content-Security-Policy" content="object-src 'none';
+default-src *;
+style-src 'self' Homepage.css 'unsafe-inline';
+script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js Homepage.js 'unsafe-inline' 'unsafe-eval';
+img-src * data: 'unsafe-inline';
+connect-src * 'unsafe-inline';
+child-src *;
+"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="Homepage.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <script src="Homepage.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+  <ul>
+       <li><a href="Homepage.html">Home</a></li>
+       <li><a href="Favourites.html">Favourites</a></li>
+       <li><a href="View.html">View All Holidays</a></li>
+       <li> <a href="HolidayForm.html">Find your Holiday</a></li>
+     </ul>
+</nav>
+</header>
+<br>
+<br>
+<br>
+<section id="description">Welcome to HolidayHub</section>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<img src="Africa.jpg" style="width:100%">.
+<div class="captext"><a id="Banner10" class="link" href="Seychelles.html">Visit a Resort in Africa</a></div>
+</div>
+<div class="mySlides fade">
+<img src="America.jpg" style="width:100%">
+<div class="captext"><a id="middle" class="link"href="America.html">Visit a Resort in America</a></div>
+</div>
+<div class="mySlides fade">
+<img src="TheAlps.jpg" style="width:100%">
+<div class="captext"><a id="link" href="France.html">Visit a Resort in The Alps</a></div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+&nbsp;
+<section class="align">
+<section class="row">
+  <section class="column">
+<div class="container">
+  <img src="arnaud-papa-28756.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="HolidayForm.html">Find your holiday</a></div>
+  </div>
+</div>
+</section>
+<section class="column">
+<div class="container">
+  <img src="Favourites.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="Favourites.html">View Favourites</a></div>
+  </div>
+</div>
+</section>
+<section class="column">
+<div class="container">
+  <img src="leon-seierlein-45908.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="View.html">View All Holidays</a></div>
+  </div>
+</div>
+</section>
+<section class="column">
+<div class="container">
+  <img src="neonbrand-258972.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="HolidayForm.html">Purchase Holiday</a></div>
+  </div>
+</div>
+</section>
+</section>
+</section>
+
+<footer class="copyright"><!--Another footer is used to group information about the author and my social media link at the bottom of the page-->
+ &copy;2017 - <strong>Created by <a href="http://critichub.herokuapp.com">Cyril Kofi Asomani</a></strong>
+ </footer>
+
+
+</body>
+</html>

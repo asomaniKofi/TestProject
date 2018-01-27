@@ -1,0 +1,180 @@
+{
+"Resorts":
+[
+  {
+      "destination":"Carribean",
+      "name":"Les Boucaniers",
+      "location":"Martinique",
+      "Rating":"4",
+      "activities":[
+        "WaterSkiing",
+        "Tennis",
+        "ScubaDiving",
+        "Spa"
+      ],
+      "price":"£1254",
+      "startDate":"2017/01/01",
+      "endDate":"2018/09/05",
+      "short_description":"The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island, and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.",
+      "picture":"LesBoucaneers",
+      "long_description":"A divers' paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",
+      "url":"Carribean.html"
+    },
+    {
+      "destination":"Indian Ocean",
+      "name":"La Plantation d'Albion",
+      "location":"Mauritius",
+      "Rating":"5",
+      "activities":[
+        "Golf",
+        "ScubaDiving",
+        "Tennis",
+        "Sailing",
+        "Spa"
+      ],
+      "price":"£2062",
+      "startDate":"2018/05/01",
+      "endDate":"2018/09/31",
+      "short_description":"Beautifully located in one of the last remote creeks on the island, La Plantation d'Albion Club Med welcomes the most demanding of guests into a world of supreme refinement.",
+      "picture":"LaPlantationdAlbion",
+"long_description":"In a remote beauty spot, savour the luxury of Mauritian lifestyle.The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resort's top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch.<br> The Resort is entirely devoted to fulfilling its guests' desires and offers discreet, personal service in its swimming areas, bars and 'Table Gourmet' restaurants.",
+      "url": "Mauritius.html"
+    },
+    {
+      "destination":"The Alps",
+      "name":"Chalet Hotel Sapiniere",
+      "location":"France",
+      "Rating":"3",
+      "activities":[
+        "Snowboarding",
+        "Hiking",
+        "Spa"
+      ],
+      "price":"£1365",
+      "startDate":"2018/09/01",
+      "endDate":"2019/04/15",
+      "short_description":"The Chalet Hotel Sapinière is an established and popular choice with Inghams guests, who thoroughly enjoy its relaxing atmosphere, excellent food and the friendly service from our Chalet Hotel staff.",
+      "picture":"ChaletHotelSapiniere",
+      "long_description": "Set in a quiet and convenient location, just 5 minutes’ walk from Chamonix’s attractive centre with its wide range of shops and facilities, the Sapinière is ideally placed for an Alpine summer holiday. Many rooms look over the Savoy meadows to the majestic snow-capped Mont Blanc - ‘the best view in all Chamonix!’ The hotel’s attractive dining room has semi-circular bay windows with stunning views of Mont Blanc. Here you will enjoy our great choice of menus and complimentary quality wines for dinner. The atmospheric bar/lounge welcomes you for your pre-dinner apéritif and canapés or to relax after dinner over coffee. The sun terrace offers the same stunning Mont Blanc views as the dining room and is an ideal spot in which to relax and share stories after a day walking or sightseeing.",
+      "url": "France.html"
+    },
+    {
+      "destination":"North America",
+      "name": "Walt Disney",
+      "location":"America",
+      "Rating": "5",
+      "activities": [
+        "Golf",
+        "Horseriding",
+        "Spa",
+        "Tennis",
+        "Scuba Diving"
+      ],
+      "price": "£3065",
+      "startDate": "2018/05/01",
+      "endDate": "2018/09/15",
+"short_description": "Walt Disney World in Orlando, Florida, is most often associated with the Magic Kingdom. That theme park was the first, but now there are several others and the number of hotels has expanded many times over. Walt Disney World has other entertainment options and activities that make it a popular destination even for people who really like theme parks or rides.",
+      "picture": "WaltDisney",
+"long_description":"Opened in 1955, Walt Disney’s original theme park, Disneyland Park is divided into 8 themed lands—Main Street, U.S.A., Tomorrowland, Fantasyland, Mickey's Toontown, Frontierland, Critter Country, New Orleans Square and Adventureland. Sail with pirates, explore exotic jungles, meet fairy-tale princesses, and dive under the ocean and rocket through the stars— all in the same day.Combine the magic of Disney with the best that California has to offer and the result is Disney California Adventure. A theme park that celebrates the California in style.When you enter the gates of this park, you are transported to the land of promise, opportunity and glamour. Disney California Adventure is a journey from the California of yesterday to today and a tribute to this land of dreams. You can ride the Red Car Trolley in 1920s Los Angeles, take a raft down the rapids with a mining company on Grizzly Peak, travel down Route 66 or brave a white knuckled roller coaster in a seaside amusement park. Whether you prefer action, comedy or romance. Disney California Adventure has something for everyone.",
+      "url": "America.html"
+    },
+    {
+      "destination":"Central America",
+      "name": "JW Marriott Guanacaste Resort & Spa",
+      "location":"Costa Rica",
+      "Rating":"4",
+      "activities":[
+        "Golf",
+        "Spa",
+        "ScubaDiving",
+        "Horseriding"
+      ],
+      "price":"£4879",
+      "startDate":"2018/03/20",
+      "endDate":"2018/11/15",
+"short_description":"310 Rooms. With this many rooms, JW Marriott Guanacaste Resort & Spa is sure to have one that's right for you.",
+      "picture":"JW-Marriott-Guanacaste",
+"long_description":"Live the essence of Costa Rican in a luxury hacienda resort in Guanacaste.This resort & spa sits oceanfront and is surrounded by the beauty of Costa Rican rich biodiversity. This hotel is the closest international branded resort to Tamarindo.All air-conditioned guestrooms have balconies either with garden, pool or ocean view.The resort is located right at Mansita beach and guests can choose from 4 other beaches within Hacienda Pinilla. Next to the resort you will find an equestrian center, tennis courts, and an 18-hole golf course with a coastal layout.",
+      "url":"CostaRica.html"
+    },
+    {
+      "destination":"Europe",
+      "name":"Grandhotel Pupp",
+      "location":"Czech Republic",
+      "Rating":"5",
+      "activities":[
+        "Skiing",
+        "Spa",
+        "Snowboarding",
+        "Hiking",
+        "Base Jumping"
+      ],
+      "price":"£6879",
+      "startDate":"2018/12/20",
+      "endDate":"2018/04/24",
+"short_description":"Over three centuries of proud history, exceptional guests, and first-class services make the Grandhotel Pupp unique on a global scale.Comfortable accommodation, gastronomic experiences in our restaurants and bars, wellness centre with a pool and saunas, boutique zone and Casino Pupp directly in the hotel. Our therapy centre Pupp Royal Spa provides the traditional and modern treatments.",
+      "picture":"grandhotel-pupp",
+      "long_description":"Located in the heart of Karlovy Vary, this luxury hotel is within a 5-minute walk of Diana Lookout Tower and Karlovy Vary Municiple Theater. Church of St. Mary Magdalene and Mill Colonnade are also within 10 minutes.Along with 2 restaurants, this hotel has a full-service spa and a casino. WiFi in public areas is free. Additionally, an indoor pool, a nightclub and 2 bars/lounges are on-site.All 228 individually decorated properties feature free WiFi and minibars. Thoughtful touches include bathrobes and slippers, and guests will also find room service and televisions.",
+      "url":"Czech.html"
+    },
+    {
+      "destination":"Asia",
+      "name":"Belmond Napasai",
+      "location":"Thailand",
+      "Rating":"5",
+      "activities":[
+        "Spa",
+        "WaterSkiing",
+        "Tennis",
+        "ScubaDiving",
+        "Golf"
+      ],
+      "price":"£6879",
+      "startDate":"2018/04/24",
+      "endDate":"2018/10/19",
+"short_description":"Catch some rays on Belmond Napasai's private white sand beach or spend the day relaxing at the full-service spa. Then enjoy a meal at one of the hotel's 2 restaurants.",
+      "picture":"Belmond-Napasai",
+      "long_description":"Nestled on the beach, this Bang Po hotel is within 3 mi (5 km) of Lomprayah Pier, Mae Nam Beach Pier and Santiburi Samui Country Club. Bo Phut Beach and Bo Phut Beach Pier are also within 6 miles (10 km). All 69 individually decorated properties feature free WiFi and Select Comfort beds. Upscale amenities include fireplaces and deep soaking bathtubs, and guests can also appreciate conveniences such as sitting areas and coffee makers.",
+      "url":"Thailand.html"
+    },
+    {
+      "destination":"South America",
+      "name":"Salinas do Maragogi",
+      "location":"Brazil",
+      "Rating":"3",
+      "activities":[
+        "Spa",
+        "WaterSkiing",
+        "Tennis",
+        "ScubaDiving",
+        "Golf",
+        "Tennis"
+      ],
+      "price":"£7879",
+      "startDate":"2018/04/24",
+      "endDate":"2018/12/19",
+"short_description":"Featuring a garden, Salinas Maragogi All Inclusive Resort is located in Maragogi, 1 miles from Maragogi Beach. This 5-star resort offers a terrace.The property is 2 miles from Sao Bento beach and 3.1 miles from Gales Natural Pools.",
+      "picture":"Salinas-do-Maragogi",
+      "long_description":"All units at the resort come with a seating area and a flat-screen TV with cable channels. Every room has a private bathroom with a shower. All rooms at Salinas Maragogi All Inclusive Reso include air conditioning and a desk.A buffet breakfast is served each morning at the property.The accommodation offers a children's playground.When guests need guidance on where to visit, the reception will be happy to provide advice.Barra Grande Beach is 3.1 miles from Salinas Maragogi All Inclusive Resort. The nearest airport is Maceio/Zumbi dos Palmares International Airport, 51 miles from the property. ",
+      "url":"Brazil.html"
+    },
+    {
+      "destination":"Africa",
+      "name":"Savoy Resort & Spa",
+      "location":"Seychelles",
+      "Rating":"4",
+      "activities":[
+        "Spa",
+        "WaterSkiing",
+        "ScubaDiving",
+        "Golf"
+      ],
+      "price":"£3500",
+      "startDate":"2018/03/24",
+      "endDate":"2018/10/19",
+"short_description":"Designed for both business and leisure travel, Savoy Resort and Spa is ideally situated in Mahé Island; one of the city's most popular locales. The hotel is not too far from the city center: just 4 km away, and it normally takes about 30 minutes to reach the airport.For sightseeing options and local attractions, one need not look far as the hotel enjoys close proximity to Arul Mihu Navasakthi Vinayagar Temple, Dr Chetty's Medical Centre, Victoria Market.",
+      "picture":"savoy-resort-spa",
+      "long_description":"Savoy Resort and Spa also offers many facilities to enrich your stay in Seychelles Islands. To name a few of the hotel's facilities, there are 24-hour room service, free Wi-Fi in all rooms, 24-hour security, daily housekeeping, gift/souvenir shop.Guests can choose from 163 rooms, all of which exude an atmosphere of total peace and harmony.The hotels boats, hiking trails, fitness center, sauna, outdoor pool are ideal places to relax and unwind after a busy day. Savoy Resort and Spa is a smart choice for travelers to Seychelles Islands, offering a relaxed and hassle-free stay every time.",
+      "url":"Seychelles.html"
+    }
+  ]}

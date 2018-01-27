@@ -1,0 +1,147 @@
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  font-size: 2px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+a:visited{
+color:white;
+}
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 25px;
+  font-family: Fyodor;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.column div {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.copyright{
+  font-family: Fyodor;
+text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+}
+.thumbnail{
+  position: absolute;
+  top: 1000px;
+  bottom: 0;
+  left: 600px;
+}
+a{
+  text-decoration: none;
+}
+article div a{
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+article div{
+  background-color: purple;
+}
+.text-block a{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header nav ul {
+    list-style: none;
+    float: right;
+}
+nav {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-right: 25px;
+    height: 50px;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+    display: inline-block;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+    float:right;
+    display: inline-block;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+header {
+  position:absolute;
+    left:0;
+    right:0;
+    display:block;
+	background-color: #52bad5;
+	border-bottom: 1px solid #2C9AB7;
+}
+#favourite{
+width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    float: right;
+    position: absolute;;
+  top: 70px;
+  left: 900px;
+}
+ul li{
+  list-style-type: none;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Find your Holiday!</title>
+  <meta name="description" content="">
+  <meta http-equiv="Content-Security-Policy" content="object-src 'none';
+default-src *;
+style-src 'self' https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css DisplayHoliday.css 'unsafe-inline';
+script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js FormWidgets.js 'unsafe-inline' 'unsafe-eval';
+img-src * data: 'unsafe-inline';
+connect-src * 'unsafe-inline';
+child-src *;
+">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="DisplayHoliday.css">
+  <link rel="stylesheet" href="adnantopal-slimmenu-c264256/src/scss/slimmenu.scss" type="text/css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="FormWidgets.js"></script>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+  <nav>
+  <ul id="nav" class="js" style="display: block; margin-top: -30px; padding-right: 100px; padding-left: 55px;">
+       <li><a href="Homepage.html">Home</a></li>
+       <li><a href="Favourites.html">Favourites</a></li>
+       <li><a href="View.html">View All Holidays</a></li>
+       <li> <a href="HolidayForm.html">Find your Holiday</a></li>
+     </ul>
+</nav>
+</header>
+
+<br>
+<br>
+ <br>
+<br>
+     <label for="Destinations">Pick a Destination</label>
+     <select id="Destinations">
+    <option value="">Select one...</option>
+    <option value="Asia">Asia</option>
+    <option value="The Alps">The Alps</option>
+    <option value="Europe">Europe</option>
+    <option value="Africa">Africa</option>
+    <option value="Carribean">Carribean</option>
+    <option value="Central America">Central America</option>
+    <option value="Indian Ocean">Indian Ocean</option>
+    <option value="South America">South America</option>
+    <option value="North America">North America</option>
+  </select>
+
+<label for="frompicker,topicker" style="font-weight:bold;">Dates</label>
+  <input type="text" id="frompicker" placeholder="When">
+  <input type="text" id="topicker" placeholder="Until">
+  <label for="Activities" style="font-weight:bold;">Activities:</label>
+  <select id="Activities">
+    <option value="Spa">Spa</option>
+    <option value="WaterSkiing">WaterSkiing</option>
+    <option value="ScubaDiving">Scuba Diving</option>
+    <option value="Golf">Golf</option>
+    <option value="Tennis">Tennis</option>
+    <option value="Snowboarding">Snowboarding</option>
+    <option value="Sailing">Sailing</option>
+    <option value="Horseriding">Horseriding</option>
+  </select>
+  <label for="Ratings">Choose a rating</label>
+ <select id="Ratings">
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+ </select>
+<p class="dynamic">
+  <label for="amount">Price range:</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+<div id="slider-range"></div>
+</p>
+
+
+<footer class="copyright"><!--Another footer is used to group information about the author and my social media link at the bottom of the page-->
+ &copy;2017 - <strong>Created by <a id="capo" href="http://critichub.herokuapp.com">Cyril Kofi Asomani</a></strong>
+ </footer>
+
+</body>
+</html>
